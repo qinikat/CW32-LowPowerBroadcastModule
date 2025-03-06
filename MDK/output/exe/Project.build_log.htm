@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ikat if , let, LIC=IK1BF-6MI59-9UV4U-S25GW-8IHFN-K35A2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  F:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.2.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+G:\100-work\110-Laboratory_projects\音频巡检系统低功耗验证DEMO\CW32L083_StandardPeripheralLib_V2.0\Examples\RTC\RTC_Calendar-V3-1.22\MDK\Project.uvprojx
+Project File Date:  01/25/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'F:\keil5\ARM\ARMCC\Bin'
+Build target 'Project'
+assembling startup_cw32l083.s...
+compiling system_cw32l083.c...
+compiling cw32l083_pwr.c...
+compiling cw32l083_btim.c...
+compiling i2c.c...
+..\USER\src\i2c.c(10): warning:  #188-D: enumerated type mixed with another type
+      I2C_InitTypeDef I2C_InitStruct = {0};
+..\USER\src\i2c.c: 1 warning, 0 errors
+compiling cw32l083_i2c.c...
+compiling cw32l083_gpio.c...
+compiling cw32l083_rcc.c...
+compiling main.c...
+compiling cw32l083_rtc.c...
+compiling rtc.c...
+compiling message.c...
+compiling interrupts_cw32l083.c...
+compiling cw32l083_uart.c...
+compiling log.c...
+linking...
+Program Size: Code=15624 RO-data=276 RW-data=76 ZI-data=588  
+FromELF: creating hex file...
+".\output\exe\Project.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: WHXY
+                
+                WHXY::CW32L083_DFP@1.0.9
+                CW32 ARM Cortex-M0+ Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Project
+  F:/keil5/ARM/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  F:/keil5/ARM/PACK/WHXY/CW32L083_DFP/1.0.9/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,20 @@
+--cpu Cortex-M0+
+".\output\exe\system_cw32l083.o"
+".\output\exe\startup_cw32l083.o"
+".\output\exe\main.o"
+".\output\exe\interrupts_cw32l083.o"
+".\output\exe\rtc.o"
+".\output\exe\i2c.o"
+".\output\exe\message.o"
+".\output\exe\cw32l083_btim.o"
+".\output\exe\cw32l083_gpio.o"
+".\output\exe\cw32l083_i2c.o"
+".\output\exe\cw32l083_pwr.o"
+".\output\exe\cw32l083_rcc.o"
+".\output\exe\cw32l083_rtc.o"
+".\output\exe\cw32l083_uart.o"
+".\output\exe\log.o"
+--library_type=microlib --strict --scatter ".\output\exe\Project.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map --load_addr_map_info --symbols
+--info sizes --info totals
+--list ".\output\list\Project.map" -o .\output\exe\Project.axf
